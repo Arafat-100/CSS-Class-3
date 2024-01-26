@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+#header_img{
+    background-color: black;
+}
+
+#header_menu{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px 0;
+    position: sticky;
+    top: 0%;
+    z-index: 50;
+}
+
+#header_menu a{
+    text-decoration: none;
+    padding: 0 2px;
+}
+#prodect_card{
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(178, 178, 178);
+    border-radius: 10px;
+    font-family: ;
+}
+
+#prodect_img{
+    text-align: center;
+}
+
+#prodect_card #prodect_img{
+    position: relative;
+}
+
+#prodect_card #prodect_img button{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+#prodect_card #prodect_img button:hover{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    background-color: rgb(4, 0, 255);
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+#prodect_title{
+    margin: 15px 0 15px 0;
+    text-decoration: none;
+    color: black;
+}
+
+img{}
+
+p{
+    text-align: center;
+    margin: 10px 0 10px 0;
+    color: #ff0000;
+    font-size: 20px;
+}
+
+.prodect_card_button{
+    text-align: center;
+}
+.prodect_card_button button{
+    color: blue;
+    width: 200px;
+    height: 30px;
+    transition: .5s;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.prodect_card_button button:hover{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+#Finder_button{
+    color: #ffff;
+    background-color: #ef4a23;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 5%;
+    top: 50%;
+    border: none;
+    border-radius: 25px;
+    font-size: 10px;
+
+}
